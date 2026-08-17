@@ -17,9 +17,10 @@ bosy {
     font-family: arial,sans-serif;
 }
 img {
-    width: 300px;
-    border: 5px solid black;
+    width: 100%;
+    max-width: 300px;
     border-radius: 50px;
+    height: auto;
     box-shadow: 0 4px 10px gray;
 }
 
@@ -36,7 +37,8 @@ button {
     padding: 20px;
     margin: 15px;
     border-radius: 15px ;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     box-shadow: 0 4px 10px gray;
     border: 5px solid black;
 }
@@ -45,7 +47,43 @@ button {
     padding: 20px;
     margin: 15px;
     border-radius: 15px ;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     box-shadow: 0 4px 10px gray;
     border: 5px solid black;
+}
+
+.formulario {
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 12px;
+    border-radius: 15px ;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 10px gray;
+    border: 5px solid black;
+}
+
+.teamo {
+    background-color: rgb(249, 209, 236);
+    padding: 20px;
+    margin: 12px;
+    border-radius: 15px ;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 10px gray;
+    border: 5px solid black;
+}
+
+.contenedor {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+    .contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
 }
