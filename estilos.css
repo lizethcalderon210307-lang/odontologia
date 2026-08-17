@@ -79,7 +79,7 @@ button {
     display: flex;
     gap: 10px;
     justify-content: space-between;
-    flex-wrap: wrap;
+    
 }
 @media (max-width: 600px) {
     .contenedor{
